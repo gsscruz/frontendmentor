@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution URL](https://your-solution-url.com)
 - [Live Site URL](https://gsscruz.github.io/frontendmentor/)
 
 ### Built with
@@ -20,3 +20,8 @@ Users should be able to:
 - Semantic HTML5 markup
 - Flexbox
 - SCSS
+
+### Result
+
+[Desktop](./images/result1.png)
+[Mobile](./images/result2.png)
