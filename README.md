@@ -21,7 +21,10 @@ Users should be able to:
 - Flexbox
 - SCSS
 
-### Result
+### Result - desktop
 
-[Desktop](./images/result1.png)
-[Mobile](./images/result2.png)
+![Desktop](./images/result1.png)
+
+### Result - mobile
+
+![Mobile](./images/result2.png)
