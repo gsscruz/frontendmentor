@@ -38,6 +38,10 @@ $border-radius: 10px;
   color: $aurometal-saurus;
   text-transform: uppercase;
   font-size: 12px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 20px;
+  }
 }
 
 .layer-0 {
@@ -47,26 +51,58 @@ $border-radius: 10px;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  padding: 20px 15px;
 }
 .layer-1 {
   background: white;
-  height: 620px;
+  height: auto;
   width: 343px;
   border-radius: $border-radius;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    height: 470px;
+    width: 670px;
+  }
 }
 
 .perfume-description {
   padding: 24px;
+  @media screen and (min-width: 768px) {
+    padding: 36px;
+  }
 }
 
 .perfume-image {
-  img {
+  height: 300px;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    height: 100%;
+    width: 580px;
+  }
+  .perfume-mobile {
+    background-image: url('../images/image-product-mobile.jpg');
+    background-position: center;
+    height: 100%;
     width: 100%;
+    background-size: cover;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
+
+    @media screen and (min-width: 768px) {
+      background-image: url('../images/image-product-desktop.jpg');
+      border-top-right-radius: 0;
+      border-bottom-left-radius: $border-radius;
+    }
   }
 }
 .perfume-description {
+  @media screen and (min-width: 768px) {
+    height: 100%;
+    width: 50%;
+  }
   h1 {
     font-family: $font-family-display;
     font-weight: $font-weight-display;
@@ -74,6 +110,10 @@ $border-radius: 10px;
     line-height: $line-height-display;
     color: $gunmetal;
     margin-bottom: 16px;
+
+    @media screen and (min-width: 768px) {
+      max-width: 10ch;
+    }
   }
   p {
     font-family: $font-family-body;
@@ -113,6 +153,9 @@ $border-radius: 10px;
   align-items: center;
   border-radius: 8px;
 
+  &:hover {
+    background: $deep-aquamarine-hover;
+  }
   p {
     color: $pure-white;
     margin-left: 10px;
