@@ -1,0 +1,196 @@
+.perfume-description .category {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.27rem;
+  color: #6c7289;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.layer-0 {
+  background: #f2eae2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.layer-1 {
+  background: white;
+  height: 620px;
+  width: 343px;
+  border-radius: 10px;
+}
+
+.perfume-description {
+  padding: 24px;
+}
+
+.perfume-image img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.perfume-description h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #1c232b;
+  margin-bottom: 16px;
+}
+.perfume-description p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #6c7289;
+  margin-bottom: 16px;
+}
+
+.perfume-price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.perfume-price .perfume-current-price {
+  font-family: "Fraunces", serif;
+  color: #3d8168;
+  font-size: 32px;
+}
+.perfume-price .perfume-old-price {
+  font-family: "Montserrat", sans-serif;
+  color: #6c7289;
+  font-size: 14px;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+.perfume-cta {
+  width: 295px;
+  background: #3d8168;
+  font-family: "Fraunces", serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.perfume-cta p {
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 0;
+  padding-top: 16px;
+  padding-bottom: 14px;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}

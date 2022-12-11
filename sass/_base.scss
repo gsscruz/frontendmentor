@@ -1,0 +1,232 @@
+//////////////////////////////////////////
+///////////// variables /////////////////
+/////////////////////////////////////////
+
+//Colors
+
+$pure-white: #ffff;
+$cream-background: #f2eae2;
+$aurometal-saurus: #6c7289;
+$deep-aquamarine: #3d8168;
+$deep-aquamarine-hover: #1a4032;
+$gunmetal: #1c232b;
+
+//Typography
+
+$font-family-display: 'Fraunces', serif;
+$font-weight-display: 700;
+$font-size-display: 32px;
+$line-height-display: 32px;
+
+$font-family-body: 'Montserrat', sans-serif;
+$font-weight-body: 500;
+$font-size-body: 14px;
+$line-height-body: 23px;
+
+$font-family-btn: 'Montserrat', sans-serif;
+$font-weight-btn: 700;
+$font-size-btn: 14px;
+$line-height-btn: 17px;
+
+// Misc
+$border-radius: 10px;
+
+.perfume-description .category {
+  font-family: $font-family-body;
+  font-weight: $font-weight-body;
+  letter-spacing: 0.27rem;
+  color: $aurometal-saurus;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.layer-0 {
+  background: $cream-background;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.layer-1 {
+  background: white;
+  height: 620px;
+  width: 343px;
+  border-radius: $border-radius;
+}
+
+.perfume-description {
+  padding: 24px;
+}
+
+.perfume-image {
+  img {
+    width: 100%;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+  }
+}
+.perfume-description {
+  h1 {
+    font-family: $font-family-display;
+    font-weight: $font-weight-display;
+    font-size: $font-size-display;
+    line-height: $line-height-display;
+    color: $gunmetal;
+    margin-bottom: 16px;
+  }
+  p {
+    font-family: $font-family-body;
+    font-weight: $font-weight-body;
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+    color: $aurometal-saurus;
+    margin-bottom: 16px;
+  }
+}
+
+.perfume-price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .perfume-current-price {
+    font-family: $font-family-display;
+    color: $deep-aquamarine;
+    font-size: $font-size-display;
+  }
+  .perfume-old-price {
+    font-family: $font-family-body;
+    color: $aurometal-saurus;
+    font-size: $font-size-body;
+    text-decoration: line-through;
+    margin-left: 10px;
+  }
+}
+.perfume-cta {
+  width: 295px;
+  background: $deep-aquamarine;
+  font-family: $font-family-display;
+  color: $pure-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+
+  p {
+    color: $pure-white;
+    margin-left: 10px;
+    margin-bottom: 0;
+    padding-top: 16px;
+    padding-bottom: 14px;
+  }
+}
+//////////////////////////////////////////
+//////////////// CSS reset   ////////////
+/////////////////////////////////////////
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
