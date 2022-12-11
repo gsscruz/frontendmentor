@@ -12,7 +12,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://gsscruz.github.io/frontendmentor/)
+- [Live Site URL](https://gsscruz.github.io/frontendmentor/)
 
 ### Built with
 
