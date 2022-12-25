@@ -21,7 +21,7 @@ export const ImageContainer = styled.div`
   border-radius: 10px;
   width: 19.2rem;
   height: 19.2rem;
-  background-image: url('/src/image/image-qr-code.png');
+  background-image: url('src/image/image-qr-code.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
