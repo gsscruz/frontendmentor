@@ -64,27 +64,27 @@ Error generating stack: `+o.message+`
   border-radius: 10px;
   width: 19.2rem;
   height: 19.2rem;
-  background-image: url('/src/assets/image-qr-code.png') ;
+  background-image: url('/src/image/image-qr-code.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
   overflow: hidden;
-margin-bottom: 1.6rem;
+  margin-bottom: 1.6rem;
 `,mm=Wn.div`
-display: flex;
-flex-direction: column;
-text-align: center;
-align-items: center;
-justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 `,vm=Wn.h1`
-color:${e=>e.theme["dark-blue"]};
-font-size: 1.46rem;
-margin-bottom: 1rem;
+  color: ${e=>e.theme["dark-blue"]};
+  font-size: 1.46rem;
+  margin-bottom: 1rem;
 `,ym=Wn.p`
   color: ${e=>e.theme["grayish-blue"]};
   font-size: 1rem;
   font-weight: 400;
-  width:17em
+  width: 17em;
 `,gm=()=>$t(dm,{children:Xo(pm,{children:[$t(hm,{}),Xo(mm,{children:[$t(vm,{children:"Improve your front-end skills by building projects"}),$t(ym,{children:"Scan the QR code to visit Frontend Mentor and take your coding skills to the next level"})]})]})}),wm={white:"hsl(0, 0%, 100%)","light-grey":"hsl(212, 45%, 89%)","grayish-blue":"hsl(220, 15%, 55%)","dark-blue":"hsl(218,44%,22%)"},Sm=fm`
 html{
   font-size: 15px;
