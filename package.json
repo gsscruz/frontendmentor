@@ -3,10 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://gsscruz.github.io/frontendmentor",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -22,6 +25,7 @@
     "@vitejs/plugin-react": "^3.0.0",
     "eslint": "^8.30.0",
     "eslint-plugin-react": "^7.31.11",
+    "gh-pages": "^4.0.0",
     "typescript": "*",
     "vite": "^4.0.0"
   }
