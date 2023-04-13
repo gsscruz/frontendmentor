@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./dist/output.css">
+  <title>Frontend Mentor | Results summary component</title>
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="
+  flex flex-col items-center 
+  xl:flex-row
+  xl:justify-center
+  h-[50.56rem]
+  ">
+  <header class="
+    flex flex-col 
+    items-center 
+    bg-gradient-to-b from-[#7755FF] from-0% via-[#6943FF] via-0% to-[#2F2CE9] to-100% 
+    rounded-b-[2rem]
+    h-[22.25rem]
+    xl:h-[32rem]
+    xl:w-[23rem]
+    w-[23.43rem]
+    xl:rounded-t-[2rem]
+    ">
+    <p class="
+      text-light_blue font-bold text-[18px] 
+      my-6
+      xl:text-[24px] 
+      xl:mt-[2.37rem]">Your Result</p>
+    <div class="
+      flex flex-col
+      items-center 
+      justify-center
+      w-[8.75rem]
+      h-[8.75rem]
+      xl:w-[12.5rem] h-[12.5rem]
+      bg-gradient-to-b from-gradient2_1 
+      rounded-full
+      mb-6
+      ">
+      <p class="
+        flex flex-col items-center 
+        text-white 
+        font-extrabold text-[56px] xl:text-[72px]
+        leading-[5rem]
+      ">
+        76
+        <span class="
+          text-light_blue text-base font-bold 
+          opacity-50
+          
+          "> of
+          100</span>
+      </p>
+    </div>
+    <p class="
+    font-bold text-[24px] text-white xl:text-[32px]
+    mb-2">
+      Great</p>
+    <p class="
+      text-light_blue font-medium text-center
+      mb-10 ml-14 mr-14 xl:text-[18px]
+    ">Your performance exceed 65% of the people
+      conducting
+      the test
+      here!</p>
+  </header>
+
+  <main class="
+    flex flex-col 
+    w-80 h-[99.72rem] 
+    xl:w-[23rem] 
+    xl:h-[32rem]
+    mb-[1.875rem]
+    ml-[2.5rem]
+    mr-[2.5rem]
+    xl:mr-[0]
+    xl:ml-[0]
+    xl:mb-[0]
+    xl:items-center
+    ">
+
+    <p class="
+      font-bold text-[18px] text-dark_navy text-left 
+      w-full  
+      my-6
+      xl:text-[24px]
+      xl:mt-[2.375rem]
+      xl:mb-[1.75rem]
+      xl:ml-[2.5rem]
+      xl:self-start
+    ">Summary</p>
+
+    <div class="
+      font-bold text-dark_navy 
+      w-full h-full
+      xl:w-[18rem]
+      xl:h-[17rem]
+    ">
+
+      <div class="
+        flex justify-between items-center 
+        h-[3.5rem] 
+        rounded-[12px] 
+        bg-red/[.20] 
+        mb-4
+      ">
+
+        <div class="flex">
+          <img class="
+            mt-4.5 mb-4.5 ml-4 mr-3 
+            " src="./assets/images/icon-reaction.svg" alt="" srcset="">
+          <p class="
+            text-red font-medium 
+            opacity-100
+            xl:text-[18px]
+          ">Reaction</p>
+        </div>
+        <span class="
+          mt-4.5 mb-4.5 mr-3 
+          font-bold text-dark_navy
+          xl:text-[18px]
+          ">
+          80
+          <span class="
+            opacity-50 
+            ml-2
+            xl:text-[18px]
+          ">/ 100</span></span>
+
+      </div>
+
+      <div class="
+        flex justify-between items-center 
+        h-[3.5rem] 
+        rounded-[12px] 
+        bg-yellow/[.05] 
+        mb-4">
+
+        <div class="flex">
+          <img class="mt-4.5 mb-4.5 ml-4 mr-3 " src="./assets/images/icon-memory.svg" alt="" srcset="">
+          <p class="text-yellow font-medium xl:text-[18px]">Memory </p>
+        </div>
+        <span class="
+        mt-4.5 mb-4.5 mr-3 
+        font-bold text-dark_navy 
+        xl:text-[18px]">92<span class="
+            opacity-50 
+            ml-2 
+            xl:text-[18px]
+            ">/ 100</span></span>
+      </div>
+
+      <div class="
+        flex  justify-between items-center  
+        h-[3.5rem] 
+        rounded-[12px] 
+        bg-green/[.05] 
+        mb-4">
+
+        <div class="flex">
+          <img class="mt-4.5 mb-4.5 ml-4 mr-3" src="./assets/images/icon-verbal.svg" alt="" srcset="">
+          <p class="
+            text-green font-medium 
+            xl:text-[18px]">Verbal</p>
+        </div>
+        <span class="
+          mt-4.5 mb-4.5 mr-3 font-bold text-dark_navy 
+          xl:text-[18px]">61<span class="opacity-50 ml-2 xl:text-[18px]">/ 100</span></span>
+
+
+      </div>
+      <div class="
+        flex justify-between items-center 
+        h-[3.5rem] 
+        rounded-[12px] 
+        bg-blue/[.05] 
+        mb-6
+        xl:text-[18px]
+        xl:mb-[2.56rem]
+        ">
+
+        <div class="flex">
+          <img class="
+            mt-4.5 mb-4.5 ml-4 mr-3" src="./assets/images/icon-visual.svg" alt="" srcset="">
+          <p class="text-blue font-medium xl:text-[18px]">Visual</p>
+        </div>
+        <span class="
+          mt-4.5 mb-4.5 mr-3 
+          font-bold text-dark_navy xl:text-[18px]">
+          72
+          <span class="
+        opacity-50 ml-2 xl:text-[18px]">/ 100</span></span>
+
+
+      </div>
+      <button class="
+        font-bold
+        w-full
+        bg-dark_navy 
+        text-white 
+        rounded-[128px] 
+        h-[3.5rem] 
+        hover: bg-gradient-to-b 
+        hover:from-[#7755FF] from-0%
+        hover:via-[#6943FF] via-0% 
+        hover:to-[#2F2CE9] to-100% 
+      ">Continue</button>
+    </div>
+    </div>
+  </main>
+
+</body>
+
+</html>

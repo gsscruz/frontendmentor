@@ -1,0 +1,11 @@
+{
+  "name": "results-summary-component-main",
+  "version": "1.0.0",
+  "description": "Component of summary results",
+  "main": "index.js",
+  "author": "Gustavo Monte",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
